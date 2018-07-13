@@ -1,0 +1,35 @@
+{
+  "name": "fatelord/yii2-sortable-widgets",
+  "description": "Implementation Rubaxa/Sortable for Yii2. Sortable grid view inside.",
+  "homepage": "http://github.com/fatelord/yii2-sortable-widgets",
+  "keywords": [
+    "yii2",
+    "rubaxa",
+    "gridview",
+    "sorting",
+    "sortable",
+    "jqueryui",
+    "dnd",
+    "grid"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Constantine Chuprik",
+      "email": "constantinchuprik@gmail.com"
+    },
+    {
+      "name": "Sammy Barasa",
+      "email": "barsamms@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kotchuprik\\sortable\\": ""
+    }
+  }
+}

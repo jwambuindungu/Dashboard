@@ -1,0 +1,27 @@
+{
+    "name": "enscope/yii2-chartjs-widget",
+    "description": "Yii2 chart.js 2.0 widget",
+    "keywords": ["yii2", "extension", "widget", "chart", "chartjs", "chartjs2"],
+    "homepage": "http://www.enscope.com",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Miro Hudak - enscope, s.r.o.",
+            "email": "mhudak@dev.enscope.com",
+            "homepage": "http://enscope.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/enscope/yii2-chartjs-widget/issues",
+        "source": "https://github.com/enscope/yii2-chartjs-widget"
+    },
+    "require": {
+        "bower-asset/chartjs": "2.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "enscope\\Yii2ChartJs\\": "src"
+        }
+    }
+}

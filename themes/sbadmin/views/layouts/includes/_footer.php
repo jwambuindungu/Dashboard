@@ -1,0 +1,6 @@
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-right"><?= Yii::powered() .' ver.'.Yii::getVersion() ?></p>
+    </div>
+</footer>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5d45ef3-b785-4f37-8636-211b6dc9a233" name="MANAGEMENT DASHBOARD" url="http://management.uonbi.ac.ke">
+        <fileTransfer host="management.uonbi.ac.ke" port="22" rootFolder="/var/www/html/dashboard" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
